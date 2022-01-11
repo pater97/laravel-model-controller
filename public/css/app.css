@@ -11243,3 +11243,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Bebas Neue";
+  background-color: #F1D302;
+}
+
+header {
+  background-color: #020100;
+  color: #F1D302;
+}
+header h1 {
+  font-size: 5rem;
+}
+
+.movies .movie_card {
+  background-color: #FDFFFC;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.movies .movie_card:hover {
+  cursor: pointer;
+  transform: scale(105%);
+}
+.movies .movie_card:hover .rate h3 {
+  background: #F1D302;
+  border-radius: 10px;
+  color: #020100;
+  box-shadow: 0px 0px 12px 4px #020100;
+  transition: 1s ease-in-out;
+}
+.movies .movie_card h2 {
+  color: #F1D302;
+}
+.movies .movie_card .more_info span {
+  font-weight: bolder;
+}
+.movies .movie_card .rate {
+  color: #ED1C24;
+}
+.movies .movie_card .rate h3 {
+  background: #020100;
+  border-radius: 10px;
+  color: #F1D302;
+  box-shadow: 0px 0px 12px 4px #F1D302;
+}

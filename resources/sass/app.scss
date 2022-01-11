@@ -1,2 +1,54 @@
 //
 @use 'bootstrap';
+// variabiles
+$mainColor:#F1D302;
+$secondaryColor:#ED1C24;
+//general
+body{
+    font-family: 'Bebas Neue';
+    background-color: $mainColor;
+}
+// header
+header{
+    background-color:#020100 ;
+    color: $mainColor;
+    h1{
+        font-size: 5rem;
+    }
+}
+// main
+.movies{
+    .movie_card{
+        background-color: #FDFFFC;
+        padding: 2rem;
+        border-radius: 15px;
+        &:hover{
+            cursor: pointer;
+            transform: scale(105%);
+        }
+        &:hover .rate h3{
+                    background: $mainColor;
+                    border-radius: 10px;
+                    color: #020100;
+                    box-shadow: 0px 0px 12px 4px #020100;
+                    transition: 1s ease-in-out;
+        }
+        h2{
+            color: $mainColor;
+        }
+        .more_info{
+            span{
+                font-weight: bolder;
+            }
+        }
+        .rate{
+            color: $secondaryColor;
+            h3{
+                background: #020100;
+                border-radius: 10px;
+                color: $mainColor;
+                box-shadow: 0px 0px 12px 4px $mainColor;
+            }
+        }
+    }
+}
